@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d7cf713883.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto&display=swap" rel="stylesheet">
+    <title>Rock, Paper, Scissors Battle</title>
+</head>
+
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <h4>Battle</h4>
+
+    <button class="choices" id="rock">✊</button>
+    <button class="choices" id="paper">✋</button>
+    <button class="choices" id="scissors">✌</button>
+
+    <div class="result">
+        <p>Result: <span id="result"></span></p>
+    </div>
+
+    <div class="players">
+        <div class="user-screen">
+            <p>Your Choice: <span id="user-choice"></span></p>
+            <p id="user-score">0</p>
+        </div>
+        <div class="computer-screen">
+            <p>Computer Choice: <span id="computer-choice"></span></p>
+            <p id="computer-score">0</p>
+        </div>
+    </div>
+
+    <div class="winner">
+        <p id="winner"></p>
+        <button id="try-again">Try again!</button>
+    </div>
+
+    <div class="battle-log">
+        <p>Battle Log</p>
+        <select id="battle-log"></select>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
